@@ -12,15 +12,47 @@ Hbnb: HolbertonBnb is AirBnb Clone, a complete web application that composed by 
 
 In this project, we will start implementing the first part: The console.
 
+# Execution
 
+The shell is executed in interactive mode:
 
+```
+$ ./console.py
+(hbnb) help
 
+Documented commands (type help <topic>):
+========================================
+EOF help quit
 
+(hbnb)
+(hbnb)
+(hbnb) quit
+$
+```
 
+Also in non-interactive mode:
 
+```
+$ echo "help" | ./console.py
+(hbnb)
 
+Documented commands (type help <topic>):
+========================================
+EOF help quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
 
-
+Documented commands (type help <topic>):
+========================================
+EOF help quit
+(hbnb) 
+$
+```
 
 
 # Authors :
