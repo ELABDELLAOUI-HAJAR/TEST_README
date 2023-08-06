@@ -54,6 +54,17 @@ EOF help quit
 $
 ```
 
+# Tests
+
+Launch tests:
+```
+python3 -m unittest discover tests
+```
+
+All tests should also pass in non-interactive mode: 
+```
+$ echo "python3 -m unittest discover tests" | bash
+```
 
 # Authors :
 - **HAJAR EL ABDELLAOUI** <[ELABDELLAOUI-HAJAR](https://github.com/ELABDELLAOUI-HAJAR)>
